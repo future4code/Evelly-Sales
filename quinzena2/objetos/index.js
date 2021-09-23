@@ -128,3 +128,32 @@
 // console.log (minhaFuncao(pessoa, "nome"))
 // console.log(minhaFuncao(pessoa, "idade"))
 // console.log(minhaFuncao(pessoa, "profissao"))
+
+// const pessoa = {
+//     nome: "Lya",
+//     genero: "feminino",  
+
+//   }
+  
+//   function objetoPessoa (pessoa) {
+//       console.log(`Bem vinda ${pessoa.nome}`)
+//   }
+
+//   objetoPessoa(pessoa)
+
+let primeiroNumero = Number (promppt ("Digite um número"))
+let segundooNumero = Number (promppt ("Digite um número"))
+
+function compararNumeroscomElseIf(num1, num2) {
+    if (num1 === num2) {
+    console.log("Os n[umeros são iguais!")
+
+} else {
+
+    console.log("Os números são diferentes!")
+} 
+}
+
+compararNumeroscomElse(primeiroNumero, segundooNumero)
+
+  
