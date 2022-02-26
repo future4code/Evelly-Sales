@@ -50,6 +50,7 @@ function retornaNumerosParesElevadosADois(array) {
 }
 
 
+
 // EXERCÍCIO 06
 function retornaMaiorNumero(array) {
     // const arrayDeNumeros = array
@@ -63,13 +64,21 @@ return maior
     }
 // EXERCÍCIO 07
 function retornaObjetoEntreDoisNumeros(num1, num2) {
+    if ( num2 >= num1  ) { 
+        return true;
+       } else if (num1 % num2 == 0){
+         return true;
+       } else if (num2 -= num1) {
+        return 15 ;
+       }
+       //  return retornaObjetoEntreDoisNumeros
+          }
 
-}
-
+          
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
   let numerosPares = [];
-  for (let i = 0; numerosPares.length < n; i+=2) {
+  for (let i = 0; numerosPares.length < n; i =+ 2) {
   if (i % 2 == 0) {
   numerosPares.push(i);
             }
@@ -77,7 +86,7 @@ function retornaNPrimeirosPares(n) {
         return numerosPares;
     }
     
-    console.log(retornaNNumerosPares(3));
+    console.log(retornaNNumerosPares(5));
    
 
 // EXERCÍCIO 09
@@ -87,7 +96,7 @@ function classificaTriangulo(ladoA, ladoB, ladoC) {
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
-  
+  const segundoMaior = array 
 }
 
 // EXERCÍCIO 11
@@ -111,6 +120,14 @@ function retornaPessoaAnonimizada(pessoa) {
 
 // EXERCÍCIO 13A
 function retornaPessoasAutorizadas(pessoas) {
+    const podeEntrar = {
+        ...pessoas,
+        if (pessoas.altura => 1.50 , pessoas.idade => 14 , pessoas.idade =< 60)
+     console.log ('pode entrar') 
+    } else {
+        console.log ('não pode entrar')
+    }
+
    
 }
 
