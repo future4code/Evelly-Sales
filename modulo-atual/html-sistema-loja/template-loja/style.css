@@ -1,4 +1,4 @@
-
+/* 
 h1{
     color: white;
     background-color:  #5a301c;
@@ -18,6 +18,23 @@ button {
 
 .produtos {
 
-    background-color: #5a301c;
+    background-color: #5a301c; 
+ }*/
+
+body {
+    text-align: center;
+} 
+
+button:hover{
+    background-color:red;
+    color: white;
+    
 }
+button:active {
+    background-color: palevioletred;
+    color: red;
+}
+
+
+
 
