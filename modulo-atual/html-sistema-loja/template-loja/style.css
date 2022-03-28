@@ -1,0 +1,40 @@
+/* 
+h1{
+    color: white;
+    background-color:  #5a301c;
+}
+
+button {
+    background-color: white;
+    
+}
+
+.botao {
+
+    color: #e65b1b;
+    font-weight:bold;
+
+}
+
+.produtos {
+
+    background-color: #5a301c; 
+ }*/
+
+body {
+    text-align: center;
+} 
+
+button:hover{
+    background-color:red;
+    color: white;
+    
+}
+button:active {
+    background-color: palevioletred;
+    color: red;
+}
+
+
+
+
