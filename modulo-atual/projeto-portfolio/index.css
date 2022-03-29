@@ -3,30 +3,105 @@
       padding: 0;
   }
   
-  .perfil, .servicos, .projetos {  
+  .perfil, .projetos {  
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center; 
+ 
 }
 
 .header {
-    background-color: aqua;
+    background-color: orange;
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
-    margin: 0 30px;
-}
+    margin: 30px;
+    height: 80px;
+   
 
-
-ul {
-    font-size: 30px;
 }
 
 #minhaImagem {
 height: 200px ;
 width: 200px ;
 border-radius: 100px;
+margin-top: 30px;
+margin-bottom: 20px;
+
 
     
 }
+.botao1 {
+    height: 40px ;
+    width: 100px ;
+    margin-top: 20px;
+    margin-right: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.botao2 {
+    background-color: purple;
+    height: 40px ;
+    width: 110px ;
+    font-size: 17px;
+    border-radius: 40px;
+}
+
+.perfil1 {
+    color: azure;
+
+}
+
+.logo {
+   height: 100px ;
+    width: 100px ;
+    margin-left: 30px ;
+}
+
+
+.experiencias {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60px;
+ margin-left: 500px;
+     padding: 0px 30px ;
+
+}
+
+.servicos {
+    display: flex;
+    width: 95vw;
+    height: 10vh;
+    background-color: green;
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ margin-left: 200px;
+     padding-right: 20px ;
+     text-align: center;
+     background-color: blueviolet;
+     
+ 
+}
+
+.titulo2 {
+    width: 10px;
+        padding: 10px 10px;
+        text-align: start;
+        margin-left: 12px;
+
+    }
+
+    body {
+        background-color: purple;
+    }
+
+
