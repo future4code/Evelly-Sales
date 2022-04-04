@@ -3,15 +3,22 @@
     padding: 0;
 }
 
+
+
+#page-flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
 header {
     background-color: rgb(29, 31, 61);
-    height: 100px;
+    height: 70px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0 60px;
     align-items: center;
-
 }
 
 .logo {
@@ -20,26 +27,19 @@ header {
 }
 
 .quem {
-    margin-left: 520px;
-}
-
-.contato {
-    
-  color: rgb(29, 31, 61);
+    margin-left: 430px;
 }
 
 button {
+    color:rgb(29, 31, 61);
+    background-color: rgb(255, 254, 254);
     font-size: larger;
-    border-radius: 70px;
+    border-radius: 50px;
     padding: 7px;
 }
-/* body{
-    background-image: url("img/foto2.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100vw 100vh;  
-       
-} */
 
+
+/* 
 .estudantes {
     display: flex;
     flex-direction: row;
@@ -48,4 +48,65 @@ button {
     height: 900px;
     width: 1348px  
 
+} */
+
+main {
+    flex-grow: 1;
+    display: flex;
+    background-image:url(img/alunos.png);
+    background-position:center;  
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    
 }
+
+nav {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+
+}
+
+section {
+    background-color:  hsl(0, 0%, 100%);
+    width: 200px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color:  rgb(29, 31, 61);
+    height: 100px;
+}
+
+.face {
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+     height: 100px;
+    width: 100px;
+    margin-left: 550px;
+  
+}
+
+.insta {
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+     height: 100px;
+    width: 100px;
+   
+  
+}
+
+.twitter {
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+     height: 100px;
+    width: 100px;
+    
+  
+}
+
+
