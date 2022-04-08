@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#page-flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: rgb(29, 31, 61);
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 60px;
+    align-items: center;
+}
+
+.logo {
+    height: 250px;
+    
+}
+
+.quem {
+    margin-left: 430px;
+}
+
+button {
+    color:rgb(29, 31, 61);
+    background-color: rgb(255, 254, 254);
+    font-size: larger;
+    border-radius: 50px;
+    padding: 7px;
+}
+
+
+/* 
+.estudantes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    width: 1348px  
+
+} */
+
+main {
+    flex-grow: 1;
+    display: flex;
+    background-image:url(img/alunos.png);
+    background-position:center;  
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+
+}
+
+section {
+    background-color:  hsl(0, 0%, 100%);
+    width: 200px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color:  rgb(29, 31, 61);
+    height: 100px;
+}
+
+.face {
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+     height: 100px;
+    width: 100px;
+    margin-left: 550px;
+  
+}
+
+.insta {
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+     height: 100px;
+    width: 100px;
+   
+  
+}
+
+.twitter {
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+     height: 100px;
+    width: 100px;
+    
+  
+}
+
+
