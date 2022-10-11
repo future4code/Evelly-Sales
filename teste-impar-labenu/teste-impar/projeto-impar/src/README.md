@@ -42,7 +42,7 @@
 
 ```bash
 # clonar repositório
-$ git clone https://github.com/EvellySales/teste-impar.git
+$ git clone https://github.com/future4code/Evelly-Sales.git
 
 # Entrar no diretório
 $ cd teste-impar
