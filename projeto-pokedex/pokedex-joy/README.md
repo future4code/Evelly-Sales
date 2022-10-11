@@ -7,7 +7,7 @@
 
 ---
 <h3 align="center">
-<a href="http://projeto-pokedex-case.surge.sh/"> acessar demonstração do site</a>
+<a href="projeto-pokejoy.surge.sh"> acessar demonstração do site</a>
 </h3>
 
 ---
@@ -42,7 +42,7 @@
 
 ```bash
 # clonar repositório
-$ git clone (link do repo)
+$ git clone https://github.com/future4code/Evelly-Sales.git
 
 # Entrar no diretório
 $ cd Evelly-sales
